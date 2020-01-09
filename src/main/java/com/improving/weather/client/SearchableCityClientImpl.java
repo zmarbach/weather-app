@@ -4,11 +4,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class CityClient implements ICityClient{
+public class SearchableCityClientImpl implements SearchableCityClient{
 
     private final RestTemplate restTemplate;
 
-    public CityClient(RestTemplate restTemplate) {
+    public SearchableCityClientImpl(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 

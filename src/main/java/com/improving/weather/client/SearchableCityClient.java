@@ -1,5 +1,5 @@
 package com.improving.weather.client;
 
-public interface ICityClient {
+public interface SearchableCityClient {
     public City searchByCityName(String cityName);
 }
